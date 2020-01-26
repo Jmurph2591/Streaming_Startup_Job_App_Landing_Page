@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="main.css">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <h3 class="navbar-brand" href="#">MusicLynk</h3>
+        <a class="navbar-press" href="mailto:abc@example.com?subject = Feedback&body = Message">Press
+        </a>
+    </nav>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 href="index.html" class="display-4">Music Lynk</h1>
+            <p class="lead">The future of music streaming starts here</p>
+        </div>
+    </div>
+
+    <section class="card-group">
+
+        <div class="card card-one text-align">
+            <div class="job text-align">Featured Job</div>
+            <div class="job-title text-align">Software Engineer</div>
+            <div class="job-info text-align">Looking for a full-stack developer with experience in Angular, React,
+                Python,
+                NodeJS, C++</div>
+            <button class="open-button" onclick="document.getElementById('id01').style.display='block'"
+                style="width:auto;">Apply Now</button>
+
+            <div id="id01" class="modal">
+
+                <form class="modal-content animate" action="/action_page.php" method="post">
+                    <div class="imgcontainer">
+                        <span onclick="document.getElementById('id01').style.display='none'" class="close"
+                            title="Close Modal">&times;</span>
+                        <h6 class="text-align">MusicLynk</h6>
+                    </div>
+
+                    <div class="container">
+
+                        <p class="looking">What We're Looking For</p>
+                        <p class="desc">Do you get a kick out of watching software unfold
+                            before your eyes? Do you dream about code every night?
+                            If so, we’d love to talk to you about a new product we’re
+                            developing in the social media space. We’re looking for a
+                            top-notch Software Engineer who always sweats the small
+                            stuff and cares about impeccable code. If you see glitches
+                            as an enjoyable challenge rather than a hardship and if you
+                            are willing to put in long hours to see a project come to
+                            fruition, get in touch with us today. <br> <span class="blip" style="color:red">*Note-the
+                            in-depth explanation of the business will be discussed in 
+                            your interview</span></p>
+                        <ul>
+                            <li>Proficient in the following langyage:
+                                javascript, angular, vue, react, python, nodejs, sql, c++
+                            </li>
+                            <li>Software development</li>
+                            <li>Object-oriented design (OOD)</li>
+                            <li>Software testing and debugging</li>
+                            <li>Problem solving and logical thinking</li>
+                            <li>Written and verbal communication</li>
+                            <li>Team Player</li>
+                            <li>Sports Minded</li>
+                            <li>Love Music</li>
+                            <li>Experience developing streaming platforms</li>
+                        </ul>
+
+                        <label for="uname"><b>Full Name</b></label>
+                        <input type="text" placeholder="" name="uname" required>
+
+                        <label for="psw"><b>Email</b></label>
+                        <input type="password" placeholder="" name="psw" required>
+
+                        <label for="psw"><b>Years of Experience</b></label>
+                        <input type="password" placeholder="" name="psw" required>
+
+                        <label for="psw"><b>What makes you interested in this opportunity?</b></label>
+                        <textarea type=text wrap="hard" required></textarea>
+
+                        <label class="custom-file-upload text-align">
+                            <input type="file">Upload Resume
+                        </label>
+                        <br>
+                        <br>
+                        <button class="sub-btn" type="submit">Apply Now</button>
+
+                    </div>
+
+
+                </form>
+            </div>
+        </div>
+        <div class="card card-two text-align">
+            <div class="job text-align">Featured Job</div>
+            <div class="job-title text-align">Software Engineer</div>
+            <div class="job-info text-align">Looking for a full-stack developer with experience in Angular, React,
+                Python,
+                NodeJS, C++</div>
+            <button class="open-button" onclick="document.getElementById('id01').style.display='block'"
+                style="width:auto;">Apply Now</button>
+        </div>
+        </div>
+
+        <div class="card card-three text-align">
+            <div class="job text-align">Featured Job</div>
+            <div class="job-title text-align">Software Engineer</div>
+            <div class="job-info text-align">Looking for a full-stack developer with experience in Angular, React,
+                Python,
+                NodeJS, C++</div>
+            <button class="open-button" onclick="document.getElementById('id01').style.display='block'"
+                style="width:auto;">Apply Now</button>
+        </div>
+    </section>
+
+    <script>
+        // Get the modal
+        let modal = document.getElementById('id01');
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+
+
+</body>
+<footer>
+
+    <button class="ft-link" onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Privacy
+        Statement</button>
+
+    <h5 class="text-align">&copy;&nbspMusicLynk&nbsp;2020</h5>
+
+
+
+    <div id="id02" class="modal">
+
+        <div class="modal-content animate" action="/action_page.php" method="post">
+            <div class="imgcontainer">
+                <span onclick="document.getElementById('id02').style.display='none'" class="close"
+                    title="Close Modal">&times;</span>
+                <h6 class="text-align">MusicLynk</h6>
+            </div>
+
+            <div class="container">
+
+                <p class="looking">Privacy Statement</p>
+                <p class="desc">In order to use this website, a user must first complete the registration form.
+                    During registration a user is required to give certain information (such as name and email
+                    address). This information is used to contact you about the products/services on our site in
+                    which you have expressed interest. At your option, you may also provide demographic
+                    information (such as gender or age) about yourself, but it is not required.
+                    By reading this, you acknowledge and agree to the terms stated.</p>
+
+            </div>
+
+
+        </div>
+    </div>
+    </div>
+
+    <script>
+        // Get the modal
+        let modal = document.getElementById('id02');
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+</footer>
+
+</html>
